@@ -1,7 +1,56 @@
 /* .contactsTable img {
 width:50px;
 } */
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;500&display=swap");
 
+.App {
+  width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1em;
+  font-family: "Anek Malayalam", sans-serif;
+  font-size: 2rem;
+  background-color: #1e90ff;
+  color: #fff;
+  border-radius: 50px;
+}
 
+.contactsTable {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  padding: 0.5em;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+}
 
+td,
+th {
+  border-top: 1px solid #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+  padding: 0.45em;
+  text-align: left;
+}
 
+.btn {
+  padding: 1em;
+  margin-right: 1.2em;
+  gap: 1em;
+  margin-bottom: 1em;
+  color: #1e90ff;
+  background-color: #fff;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  border: none;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.btn:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #1e8fff86;
+}

@@ -59,13 +59,17 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => handleAddRandom()}>Add Random Contact</button>
-      <button onClick={() => sortContactByName()}>Sort by Name</button>
-      <button onClick={() => sortContactByPopularity()}>
+      <button className="btn" onClick={() => handleAddRandom()}>
+        Add Random Contact
+      </button>
+      <button className="btn" onClick={() => sortContactByName()}>
+        Sort by Name
+      </button>
+      <button className="btn" onClick={() => sortContactByPopularity()}>
         Sort by Popularity
       </button>
       <table className="contactsTable">
-        <tr>
+        <tr className="tableHeading">
           <th>Picture</th>
           <th>Name</th>
           <th>Popularity</th>
